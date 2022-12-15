@@ -10,9 +10,9 @@ impl Config {
     // this method returns an instance of the Config struct from the borrowed args array in the parameters field
     pub fn build(args: &[String]) -> Result<Config, &'static str> {
         if args.len() < 3 {
-            return Err("\nerror: not enough arguments\n");
+            return Err("not enough arguments\n");
         }else if args.len() > 4 {
-            return Err("\nerror: too many arguments\n")
+            return Err("too many arguments\n")
         }else {
             let query = args[1].clone();
             let file_path = args[2].clone();
