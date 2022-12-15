@@ -1,0 +1,10 @@
+-------------------------------------------------
+Searching for 'Rust' in poem.txt 
+
+In the land of Rust,
+And avoid unwarranted trust.
+In the land of Rust,
+In the land of Rust,
+In the land of Rust,
+And enjoy the benefits of a language that we can trust.
+-------------------------------------------------
