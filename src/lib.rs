@@ -16,6 +16,7 @@ impl Config {
         }else {
             let query = args[1].clone();
             let file_path = args[2].clone();
+            println!("Searching for '{query}' in {file_path} \n");
             let ignore_case = env::var("IGNORE_CASE").is_ok();
             Ok( Config { query, file_path, ignore_case})
         }
